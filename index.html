@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+    <h1>Javascript and CSS Learning Exercises</h1>
+    <h2>Welcome to my Homepage cvspinelli09</h2>
+
+    <p>This is where I am going to practice a lot about CSS and Javascript, as functions, buttons, dates, tabs, objects, etc</p>
+  
+  <nav>
+    <div class="choose">   
+      <button class="CSS" onclick="openCSSLevel(event, CSS)">CSS</button>
+      <button class="Javascript" onclick="openJS(event, JS)">Javascript</button>
+      <br><br>
+    </div>
+  </nav>
+
+  <br><hr>
+
+  <h3>Click at First Column to choose the content to be displayed:</h3>
+  
+
+  <div class="tab">
+    <button class="tablinks" onclick="openCSSLevel(event, 'CSS1')">CSS Beginner</button>
+    <button class="tablinks" onclick="openCSSLevel(event, 'CSS2')">CSS Advanced</button>
+    <button class="tablinks" onclick="openCSSLevel(event, 'CSS3')">CSS Responsive</button>
+    <button class="tablinks" onclick="openCSSLevel(event, 'CSS4')">CSS Grids</button>
+  </div>
+
+  <div class="tab2">
+    <button name="CSS1" class="tablinks1" onclick="openCSSLevel1(event, 'CSS1a')" id="defaultOpen">Colors</button>
+    <button class="tablinks1" onclick="openCSSLevel1(event, 'CSS1b')">BMPH</button>
+    <button class="tablinks1" onclick="openCSSLevel1(event, 'CSS1c')">Text</button>
+    <button class="tablinks1" onclick="openCSSLevel1(event, 'CSS1d')">Tables</button>
+  </div>
+
+  <div id="CSS1" class="tabcontent">
+    <h3>CSS Beginner</h3>
+    <p>Methods on Beginner phase.</p>
+  </div>
+
+  <div id="CSS2" class="tabcontent">
+    <h3>CSS Advanced</h3>
+    <p>STudy some more advanced methods on CSS.</p> 
+  </div>
+
+  <div id="CSS3" class="tabcontent">
+    <h3>CSS Responsive</h3>
+    <p>Build Resposive sites with great talent.</p>
+  </div>
+
+  <div id="CSS4" class="tabcontent">
+    <h3>CSS Grids</h3>
+    <p>Build amazing grid layouts using CSS.</p>
+  </div>
+
+  <div id="CSS1a" class="tabcontent">
+    <h3>Colors</h3>
+    <p>How to modify colors using CSS.</p>
+  </div>
+
+  <div id="CSS1b" class="tabcontent">
+    <h3>BMPH</h3>
+    <p>Border, Margins, Padding, Heigth/Width.</p>
+  </div>
+
+  <div id="CSS1c" class="tabcontent">
+    <h3>Text</h3>
+    <p>How to configure Text in CSS.</p>
+  </div>
+
+  <div id="CSS1d" class="tabcontent">
+    <h3>Tables</h3>
+    <p>How to draw amazing Tables with CSS.</p>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="script.js">
+  
+  </script>
+   
+</body>
+</html> 
